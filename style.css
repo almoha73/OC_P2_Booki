@@ -74,9 +74,16 @@ nav{
 .links a{
     text-decoration: none;
     position: relative;
+    display: inline-block;   
+}
+.link__1{
+    width: 140px;
+}
+.link__2{
+    width: 85px;
 }
 .link__1, .link__2{
-    text-align: right;
+    text-align: center;
     line-height: 94px;
     color: black;
     font-weight: 600;
@@ -90,15 +97,9 @@ nav{
     content: "";
     height: 2px;
     background-color: #0065fc;
-    
+    width: 110%;
+    left: -5px
 }
-.link__1:hover::before{
-    width: 100%;
-}
-.link__2:hover::before{
-    width: 100%;
-}
-
 
 
 header h2, header h4{
