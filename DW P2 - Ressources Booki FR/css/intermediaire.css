@@ -1,0 +1,88 @@
+/*///////////////
+//STRUCTURE/////
+//////////////*/
+main{
+    flex-direction: column;  
+    width: 94%;  
+}
+footer{
+    height: auto;
+    justify-content: center;
+    
+}
+
+
+/*/////////////////
+/////HEADER///////
+////////////////*/
+header h4{
+    margin-bottom: 25px;
+}
+.link__1:hover::before{
+    width: 100%;
+}
+.link__2:hover::before{
+    width: 100%;
+}
+
+/*/////////////////
+///////MAIN///////
+////////////////*/
+.principale{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+/*section1*/
+.section__1{
+    width: 80%;
+    padding-top: 30px;
+    
+}
+h2.hebergement{
+    text-align: center;
+}
+.affichez{
+    margin-left: 75px;
+}
+
+/*section 2*/
+.section__2{
+    width: 66%;
+    
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+/*section 3*/
+.titre1{
+   text-align: center;
+   margin-bottom: 40px;
+   font-size: 20px;
+}
+.section__3{
+    margin: auto;
+    width: 80%;
+    
+}
+.section__3--droit, .section__3--gauche{
+  justify-content: center;
+  
+  width: 42%   
+}
+.texteimage{
+    position: relative;
+    bottom: 80px;
+}
+
+
+/*FOOTER*/
+.propos, .nos__heberg, .assistance{
+    margin-bottom: 1%;
+    padding: 0 5%;
+    margin-right: 100px;
+}
