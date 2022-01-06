@@ -220,6 +220,8 @@ h3.titre1{
 }
 .text__3{
     font-size: 3.5vw;
+    width: 100%;
+    bottom: 0;
 }
 footer{
     flex-direction: column;
