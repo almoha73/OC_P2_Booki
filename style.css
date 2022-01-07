@@ -7,10 +7,10 @@
     margin: 0;
     padding: 0;
 }
-html{
+/* html{
     width: 100%;
     height: 140%
-}
+} */
 
 /*STRUCTURE DE BASE ET PALETTE////////////////////////////////
 /////////////////////////////////////////////////////*/
@@ -85,11 +85,11 @@ nav{
     color: black;
     font-weight: 600;
 }
-.link__1:hover, .link__2:hover{
+.link__1:hover, .link__2:hover, .link__1.active{
     color: #0065fc;
 }
 
-.link__1:hover::before, .link__2:hover::before{
+.link__1:hover::before, .link__2:hover::before, .link__1.active::before{
     position: absolute;
     content: "";
     height: 2px;
@@ -184,6 +184,7 @@ form{
 }
 .button{
     margin-left: 30px;
+    display: block;
     display: flex;
     text-decoration: none;
     color: black;
@@ -208,7 +209,8 @@ form{
     background-color: #deecff;
 }
 .button__one{
-    width: 192px;
+    width: 192px; 
+      
 }
 
 .button__two{
@@ -218,7 +220,8 @@ form{
     width: 186px;
 }
 .button__four{
-    width: 243px;
+    width: 225px;
+    
 }
 .p__two{
     padding-left: 10px;
@@ -246,8 +249,7 @@ form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 2%;
-    
+    margin-top: 2%;   
 }
 
 /*Galerie de la première section*/
@@ -258,7 +260,7 @@ form{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 32px;  
+    border-radius: 25px;  
     padding: 20px; 
 }
 h2.hebergement{
@@ -276,8 +278,7 @@ h2.hebergement{
     position: relative;
     overflow: hidden;
     width: 28%;
-    height: 33%;
-    
+    height: 33%;   
 }
 .section__1--img:hover{
     transform: scale(1.02);
@@ -400,7 +401,7 @@ img.febrian{
     width: 60%;
     background: white;
     border-radius: 0 16px 16px 0;
-    border-left: 4px solid inherit;
+    border-left: 4px solid white;
     font-size: 1vw;
     padding-top: 5px;
     line-height: 1.8vw;
@@ -437,7 +438,7 @@ img.febrian{
     
 }
 
-/*Gauche*/
+/*Gauche et droit*/
 .section__3--gauche, .section__3--droit{
     width: 50%;
     height: 100%;
@@ -515,9 +516,6 @@ img.febrian{
     position: absolute;
     bottom: -1px;       
 }
-
-
-/*Droite*/
 
 
 
