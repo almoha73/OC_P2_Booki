@@ -7,10 +7,6 @@
     margin: 0;
     padding: 0;
 }
-/* html{
-    width: 100%;
-    height: 140%
-} */
 
 /*STRUCTURE DE BASE ET PALETTE////////////////////////////////
 /////////////////////////////////////////////////////*/
@@ -335,7 +331,6 @@ p.stars{
     position: absolute;
     bottom: 3px;
 }
-
 .affichez{
     width: 100%;
     text-decoration: none;
@@ -377,7 +372,7 @@ p.stars{
     color: black;
     box-shadow: -3px 0px 17px 0px #d9d9d9;
     border-radius: 16px;  
-    width: 80%;
+    width: 83%;
     height: 9vmax;
     display: flex; 
     margin-top: 20px;
@@ -419,11 +414,12 @@ img.febrian{
 /* Galerie de la 3eme section*/
 .activites{
     width: 100%;
+    height: 40vw;
     margin-bottom: 20px;
 }
 .titre1{
     width: 90%;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     margin-left: 2%;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -431,6 +427,7 @@ img.febrian{
 }
 .section__3{
     width: 100%;
+    height: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -440,6 +437,7 @@ img.febrian{
 /*Gauche et droit*/
 .section__3--gauche, .section__3--droit{
     width: 50%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;   
@@ -447,7 +445,7 @@ img.febrian{
 }
 .section__3--gauche2, .section__3--droit2{
     width: 50%;
-    height: 502px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;   
@@ -503,8 +501,8 @@ img.febrian{
 
 .text__3{
     width: 100%;
-    height: 5vh;
-    line-height: 5vh;
+    height: 50px;
+    line-height: 50px;
     padding-left: 1vw;
     font-size: 0.9vw;
     background-color: white;
@@ -528,6 +526,6 @@ footer a{
     color: black;
 }
 .propos, .nos__heberg, .assistance{
-    margin-right: 230px;
+    flex-basis: 30%;
     
 }
