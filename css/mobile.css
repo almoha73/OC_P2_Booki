@@ -134,7 +134,7 @@ main h2.pop{
 }
 h2.hebergement{
     font-size: 20px;   
-    width: 80%;
+    width: 88%;
     margin-left: 0;
     text-align: left;
     margin-bottom: 20px;
@@ -201,6 +201,8 @@ h3.titre1{
     font-size: 5vw; 
     margin-left: 10%; 
     width: 80%;
+    margin-bottom: 15px;
+    font-weight: 900;
 }
 .section__3--gauche{
     width: 85%; 
@@ -230,7 +232,7 @@ h3.titre1{
 .text__3{
     font-size: 15px;
     width: 100%;
-    bottom: 0;
+    bottom: -15px;
 }
 footer{
     flex-direction: column;
