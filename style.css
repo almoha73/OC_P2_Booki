@@ -275,10 +275,10 @@ h2.hebergement{
     color: black;
     box-shadow: -3px 0px 17px 0px #d9d9d9;
     border-radius: 16px;  
-    position: relative;
     overflow: hidden;
     width: 28%;
-    height: 33%;   
+    height: 33%;  
+    position: relative; 
 }
 .section__1--img:hover{
     transform: scale(1.02);
@@ -287,15 +287,16 @@ h2.hebergement{
     width: 100%;
     height: 40%;
     background-color: white;
-    border-radius: 0 0 5px 5px;
+    border: 6px solid transparent;
+    border-radius: 0 0 16px 16px;
     position: absolute;
     bottom: -1px;
-    right: 0px;     
+    right: 0px;  
 }
 
 .text__1 p{
     padding-left: 5%;
-    padding-top: 5%;  
+    padding-top: 4%;  
     line-height: 60%; 
     font-size: 1vw;
 }
@@ -330,7 +331,10 @@ h2.hebergement{
 .img__6{
     object-position: 0 -14vh;
 }
-
+p.stars{
+    position: absolute;
+    bottom: 3px;
+}
 
 .affichez{
     width: 100%;
@@ -367,10 +371,7 @@ h2.hebergement{
 .fa-chart-line{
     font-size: 2vw;   
 }
-.stars{
-    position: absolute;
-    bottom: 0px
-}
+
 .section__2--img{
     text-decoration: none;
     color: black;
@@ -409,16 +410,16 @@ img.febrian{
     
 }
 .text__2 p:first-of-type{
-    font-weight: bold;
+    font-weight: 900;
 }
 .text__22 :nth-of-type(2){
-    font-weight: bold;     
+    font-weight: 900;     
 }
 
 /* Galerie de la 3eme section*/
 .activites{
     width: 100%;
-    height: 40vw;
+    margin-bottom: 20px;
 }
 .titre1{
     width: 90%;
@@ -430,8 +431,6 @@ img.febrian{
 }
 .section__3{
     width: 100%;
-    min-width: 900px;
-    height: 30vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -441,7 +440,6 @@ img.febrian{
 /*Gauche et droit*/
 .section__3--gauche, .section__3--droit{
     width: 50%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;   
@@ -449,7 +447,7 @@ img.febrian{
 }
 .section__3--gauche2, .section__3--droit2{
     width: 50%;
-    height: 100%;
+    height: 502px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;   
@@ -468,27 +466,26 @@ img.febrian{
 
 .port{
     width: 45%;
-    height: 100%;   
+    height: 100%;  
 }
 
 .pomegues{
     width: 92%;
-    height: 55%;
+    height: 60%;
     
     
 }
 .frioul{
     width: 92%;
-    height: 30%;
+    height: 35%;
 }
 .calanques{
     width: 45%;
     height: 100%;
-    display: inline-block;
 }
 .garde{
     width: 100%;
-    height: 40%;
+    height: 45%;
 }
 .longchamp{
     width: 100%;  
@@ -506,7 +503,7 @@ img.febrian{
 
 .text__3{
     width: 100%;
-    height: 4vh;
+    height: 5vh;
     line-height: 4vh;
     padding-left: 1vw;
     font-size: 0.9vw;
