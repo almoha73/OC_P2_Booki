@@ -66,8 +66,7 @@ header h4{
     border-radius: 16px 16px 16px 16px;
     text-align: center;
     padding-top: 16px;
-    margin-left: -40px;
-    
+    margin-left: -40px;    
 }
 .filter{
     flex-direction: column;
@@ -77,18 +76,26 @@ header h4{
     width: 100%;   
 }
 .button{
-    margin-left: 0px;
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-left: 0;
 }
 .button__one{
     width: 170px;
-    margin-right: 20px;
 }
 .button__two{
-    width: 138px;
+    width: 134px;
 }
-
+.button__three{
+    width: 186px;
+}
+.infos{
+    font-size: 14px;
+}
+.infos span{
+    display: block;
+    margin-left: 43px;
+}
 
 .principale{
     flex-direction: column-reverse;
